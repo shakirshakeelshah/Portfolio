@@ -1,0 +1,38 @@
+body
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav
+{
+    background-color: black ;
+    color: white;
+    margin: 0%;
+    padding: 11px;
+    position: sticky;
+    top: 0;
+
+}
+
+ul
+{
+    display: inline;
+}
+
+li
+{
+    display: inline;
+    list-style: none;
+}
+
+div
+{
+    background-color: white;
+    color: black;
+    margin: 0px;
+    padding: 30px;
+
+}
