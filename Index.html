@@ -8,12 +8,12 @@
 <body>
     <nav>
          <!-- navbar -->
-       <h1>SQUAD</h1>
-            <ul>
-                <li>Names</li>
-                <li>Contact</li>
-                <li>Address</li>
-            </ul>
+        <h1 style="text-align: left;">SQUAD</h1>
+
+        <li>Names</li>
+        <li>Contact</li>
+        <li>Address</li>
+                
     </nav>
 
     <div class="one">
@@ -29,7 +29,7 @@
     <div class="two">
         <form action="">
             <label class="lbl" for="id">Id</label>
-            <input type="text" id="id">
+            <input type="text" id="id" required>
             <br>
 
             <label class="lbl" for="email">Email</label>
@@ -37,7 +37,7 @@
             <br>
 
             <label class="lbl" for="password">Password</label>
-            <input type="text" id="password">
+            <input type="text" id="password" required>
             <br>
 
             <label class="lbl" for="Gender">Select your gender</label>
@@ -46,10 +46,14 @@
                 <option value="">Female</option>
                 <option value="">Helikoptar</option>
             </select>
-            <br>
 
+            <br>
+            <label class="lbl" style="font-size: small;" for="checkbox1">I agree to the terms and consitions</label>
+            <input type="checkbox" id="checkbox1" required>
+            <br>
+            
             <label class="lbl" for="bio"></label>
-            <textarea name="" id="bio" cols="30" rows="10"></textarea>
+            <textarea name="" id="bio" cols="30" rows="10" placeholder="Write your comments here"></textarea>
 
             <input type="submit" value="Submit">
         </form>
