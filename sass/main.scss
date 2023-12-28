@@ -1,0 +1,13 @@
+$primary: #00eaff;
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$gay-colors: (
+  "naveed": pink,
+  "haseeb": purple
+
+);
+$theme-colors: map-merge($gay-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
