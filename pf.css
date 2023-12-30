@@ -1,9 +1,39 @@
-.navbar-edit
+.nav-custom
 {
-    background-color: rgb(0, 148, 148);
+    background-color:  #435268;
 }
 
-.srchbar
+.contact-icn
 {
-    background-color: transparent;
+    color: #575757;
+    justify-content: end;
 }
+
+.navtxt
+{
+    color: white;
+}
+
+.infotxt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand
+{
+    color: blueviolet;
+}
+
+.mxwidth
+{
+    max-width: 450px;
+    
+}
+
+.mnwidth
+{
+    min-width: 380px;
+}
+
+
