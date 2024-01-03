@@ -1,28 +1,6 @@
-.nav-custom
+body
 {
-    background-color:  #435268;
-}
-
-.contact-icn
-{
-    color: #575757;
-    justify-content: end;
-}
-
-.navtxt
-{
-    color: white;
-}
-
-.infotxt
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brand
-{
-    color: blueviolet;
+    box-sizing: border-box;
 }
 
 .mxwidth
@@ -36,4 +14,31 @@
     min-width: 380px;
 }
 
+.crcl
+{
+    width: 450px;
+    height: 450px;
+    border-radius: ;
+}
 
+.anmtn
+{
+    border-radius: 50%;
+    size: 50px;
+}
+
+.fontchng
+{
+    font-family: 'Tahoma';
+}
+
+
+.card-title
+{
+    text-align: center;
+}
+
+.wdth
+{
+    width: 100%;
+}
