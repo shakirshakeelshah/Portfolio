@@ -62,7 +62,7 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-end mt-[5rem] -ml-[35px]">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
